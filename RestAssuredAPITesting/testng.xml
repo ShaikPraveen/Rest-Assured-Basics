@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Suite">
+  <test  name="Test">
+    <classes>
+      <class name="com.qa.practice.TC01_Get_Call_Request"/>
+      <class name="com.qa.practice.TC04_Delete_Call_Request"/>
+      <class name="com.qa.practice.TC06_JsonPath"/>
+      <class name="com.qa.practice.TC03_Put_Call_Request"/>
+      <class name="com.qa.practice.TC02_Post_Call_Request"/>
+      <class name="com.qa.practice.TC05_Headers"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
